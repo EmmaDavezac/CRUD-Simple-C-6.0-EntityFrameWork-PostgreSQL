@@ -9,7 +9,7 @@ namespace ConsoleApp2.Models
     {
         /*
         * Información importante:
-        * ConnectionString = "Host=babar.db.elephantsql.com;Database=dcemawfm;Username=dcemawfm;Password=KPziajwe2MM-T3JSjrsL4vmnxz41mylH";
+        * ConnectionString = "Host=babar.db.elephantsql.com;Database=;Username=;Password=KPziajwe2MM-T3JSjrsL4vmnxz41mylH";
         * Paquetes Utilizados:
         *     Microsoft.EntityFrameworkCore.Design
               Microsoft.EntityFrameworkCore.Tools.DotNet
@@ -30,7 +30,7 @@ namespace ConsoleApp2.Models
             if (!optionsBuilder.IsConfigured)
             {
               
-                optionsBuilder.UseNpgsql("Host=babar.db.elephantsql.com;Database=dcemawfm;Username=dcemawfm;Password=KPziajwe2MM-T3JSjrsL4vmnxz41mylH");
+                optionsBuilder.UseNpgsql("Host=babar.db.elephantsql.com;Database=;Username=;Password=KPziajwe2MM-T3JSjrsL4vmnxz41mylH");
             }
         }
 
