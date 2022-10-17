@@ -11,8 +11,15 @@ namespace ConsoleApp2.Models
         * Información importante:
         * ConnectionString = "Host=babar.db.elephantsql.com;Database=;Username=;Password=KPziajwe2MM-T3JSjrsL4vmnxz41mylH";
         * Paquetes Utilizados:
+              Microsoft.EntityFrameworkCore
         *     Microsoft.EntityFrameworkCore.Design
-              Microsoft.EntityFrameworkCore.Tools.DotNet
+              //instalemos dotner ef
+              dotnet tool install --global dotnet-ef
+              //actualicemos dotner ef
+              dotnet tool update --global dotnet-ef
+              //Microsoft.EntityFrameworkCore.Tools.DotNet lo instalamos anteriormente en las dos instrucciones anteriores
+              //instalemos el paquete 
+              dotnet add package Microsoft.EntityFrameworkCore.Design
               Microsoft.NETCore.App
               Npgsql.EntityFrameworkCore.PostgreSQL
               Npgsql.EntityFrameworkCore.PostgreSQL.Design
